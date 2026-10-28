@@ -1,4 +1,4 @@
-const PropertyModel = require("../models/PropertyModel");
+const PropertyModel = require("../models/propertyModel");
 const CategoryModel = require("../models/categoryModel");
 const UserModel = require("../models/userModel");
 
