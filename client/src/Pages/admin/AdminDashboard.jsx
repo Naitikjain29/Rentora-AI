@@ -10,7 +10,7 @@ import {
 import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import { toast } from "react-toastify";
-import api from "../../services/api";
+import api from "../../Services/api";
 import Navbar from "../../Components/Navbar";
 
 const AdminDashboard = () => {

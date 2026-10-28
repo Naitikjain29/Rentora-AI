@@ -16,8 +16,8 @@ import {
 
 import { useState, useEffect, useRef } from "react";
 import { toast } from "react-toastify";
-import api, { imageUrl } from "../../services/api";
-import Navbar from "../../components/Navbar";
+import api, { imageUrl } from "../../Services/api";
+import Navbar from "../../Components/Navbar";
 
 const Properties = () => {
   const [properties, setProperties] = useState([]);

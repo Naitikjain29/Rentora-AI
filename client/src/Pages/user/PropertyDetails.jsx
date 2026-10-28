@@ -14,7 +14,7 @@ import {
 import { useParams } from "react-router-dom";
 import { useState, useEffect } from "react";
 import { toast } from "react-toastify";
-import api, { imageUrl } from "../../services/api";
+import api, { imageUrl } from "../../Services/api";
 import Navbar from "../../Components/Navbar";
 
 const PropertyDetails = () => {

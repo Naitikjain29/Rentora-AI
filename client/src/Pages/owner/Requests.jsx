@@ -9,8 +9,8 @@ import {
 } from "react-icons/fi";
 import { useState, useEffect } from "react";
 import { toast } from "react-toastify";
-import api from "../../services/api";
-import Navbar from "../../components/Navbar";
+import api from "../../Services/api";
+import Navbar from "../../Components/Navbar";
 
 const statusStyles = {
   pending: { text: "text-amber-400", bg: "bg-amber-500/10", Icon: FiClock },
