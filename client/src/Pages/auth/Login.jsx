@@ -3,8 +3,8 @@ import { Link, useNavigate } from "react-router-dom";
 import { FiMail, FiLock, FiArrowRight } from "react-icons/fi";
 import { useState } from "react";
 import { toast } from "react-toastify";
-import api from "../../services/api";
-import Logo from "../../components/Logo";
+import api from "../../Services/api";
+import Logo from "../../Components/Logo";
 
 const dashBoardByRole = {
   user: "/user/properties",
