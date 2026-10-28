@@ -1,5 +1,5 @@
 const RentalRequestModel = require("../models/rentRequestModel");
-const PropertyModel = require("../models/PropertyModel");
+const PropertyModel = require("../models/propertyModel");
 const { isValid, isValidObjectId } = require("../utlis/validator");
 
 // Send Rental Request (User)
